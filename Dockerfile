@@ -3,8 +3,8 @@
 FROM boot2docker/boot2docker
 
 # Set this to your Virtual Box Version
-ENV VBOXVER 4.3.6
-# This is the name of Virutal Box Share to Automount
+ENV VBOXVER 4.3.14
+# This is the name of Virtual Box Share to Automount
 ENV VBOXSHARENAME home
 # This is the path in the boot2docker guest where the share will mount
 ENV VBOXSHAREGUESTPATH /home/docker/code
